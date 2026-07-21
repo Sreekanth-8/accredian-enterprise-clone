@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-
+        
         {/* Logo */}
         <a
           href="#home"
@@ -31,7 +31,6 @@ export default function Navbar() {
                 className="flex items-center gap-1 text-gray-700 hover:text-blue-600 transition"
               >
                 {item.name}
-
                 {item.dropdown && (
                   <FaChevronDown className="text-xs mt-1" />
                 )}
